@@ -37,7 +37,7 @@ ___
 # Using Fire.ly Testing Server
 To get started, I clicked on the [fire.ly server link](https://server.fire.ly/), which took me to an information page that looked like this:
 
-![Firely server information page](./README-images/Firely Server Page.png)
+![Fire.ly Server Info Page](https://github.com/AdventureSlugg/FHIR-Learning-Project/blob/main/README-images/Firely%20Server%20Page.png)
 
 Clicking on the `View Capabilities` button led me to the list of endpoints I was looking for under the `REST Mode: Server` section of the modal. 
 	`Note`: The [HL7 CapabilityStatement Requirements](https://hl7.org/fhir/us/core/STU8/CapabilityStatement-us-core-server.html) requires FHIR compliant systems to contain a CapabilityStatement which lays out what the server is capable of and what resources are accessible.
