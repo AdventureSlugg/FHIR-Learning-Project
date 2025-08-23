@@ -35,4 +35,15 @@ Since I was primarily focusing on creating a simple project, I didn't dive too d
 
 ___
 # Using Fire.ly Testing Server
-When learning more about how to use fire.ly, I started at the [Fire.ly Server Documentation](https://docs.fire.ly/projects/Firely-Server/en/latest/index.html) and read throw the overview, getting started, and set up steps.
+To get started, I clicked on the [fire.ly server link](https://server.fire.ly/), which took me to an information page that looked like this:
+
+![Firely server information page](./README-images/Firely Server Page.png)
+
+Clicking on the `View Capabilities` button led me to the list of endpoints I was looking for under the `REST Mode: Server` section of the modal. To try it out, I sent a curl command to access the `Account` endpoint, and sure enough, I got a response!
+
+Curl Command:
+```bash
+curl -X GET "https://server.fire.ly/Account" -H "Accept: application/json"
+```
+
+I tried with a few other endpoints like `Patient`, `Medication`, and `Specimen`, which all returned data I could potentially use. Now that I knew what I was working with, I could start to figure out what I wanted to create.
