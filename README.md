@@ -39,7 +39,9 @@ To get started, I clicked on the [fire.ly server link](https://server.fire.ly/),
 
 ![Firely server information page](./README-images/Firely Server Page.png)
 
-Clicking on the `View Capabilities` button led me to the list of endpoints I was looking for under the `REST Mode: Server` section of the modal. To try it out, I sent a curl command to access the `Account` endpoint, and sure enough, I got a response!
+Clicking on the `View Capabilities` button led me to the list of endpoints I was looking for under the `REST Mode: Server` section of the modal. 
+	`Note`: The [HL7 CapabilityStatement Requirements](https://hl7.org/fhir/us/core/STU8/CapabilityStatement-us-core-server.html) requires FHIR compliant systems to contain a CapabilityStatement which lays out what the server is capable of and what resources are accessible.
+To try it out, I sent a curl command to access the `Account` endpoint, and sure enough, I got a response!
 
 Curl Command:
 ```bash
