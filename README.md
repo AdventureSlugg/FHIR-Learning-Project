@@ -49,3 +49,8 @@ curl -X GET "https://server.fire.ly/Account" -H "Accept: application/json"
 ```
 
 I tried with a few other endpoints like `Patient`, `Medication`, and `Specimen`, which all returned data I could potentially use. Now that I knew what I was working with, I could start to figure out what I wanted to create.
+
+# What I Built
+Flagler Health’s mission is to streamline patient care and improve outcomes using cutting-edge technology. One of the key ways this is achieved is by triaging patients to the appropriate provider quickly and efficiently.
+
+To further enhance patient survival rate in critical and unexpected situations, I developed an application that continuously monitors patients' biometric data from any IoT-enabled device integrated with TerraAPI, such as smartwatches, medical wearables, and smartphones. The app uses AI to assess the patient’s health status in real-time. If the system detects any signs of critical conditions, both the patient and their healthcare provider are immediately alerted, enabling faster intervention when it matters most.
